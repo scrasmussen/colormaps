@@ -15,6 +15,7 @@ const colormaps = [
   { name: 'wind', type: 'sequentialMultiHue' },
   { name: 'warm', type: 'sequentialMultiHue' },
   { name: 'cool', type: 'sequentialMultiHue' },
+  { name: 'diffredblue', type: 'diverging' },
   { name: 'pinkgreen', type: 'diverging' },
   { name: 'redteal', type: 'diverging' },
   { name: 'orangeblue', type: 'diverging' },

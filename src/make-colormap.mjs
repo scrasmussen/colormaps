@@ -25,6 +25,9 @@ const makeColormap = (name, options) => {
   const purple = '#c088de'
   const pink = '#db81ae'
   const grey = '#9aa3b3'
+  const diffred = '#FF0000'
+  const diffblue = '#0000FF'
+  const white = '#FFFFFF'
 
   let start, middle, end
 
@@ -243,6 +246,10 @@ const makeColormap = (name, options) => {
     case 'redteal':
       bezier = false
       ramp = [red, start, teal]
+      break
+    case 'diffredblue':
+      bezier = false
+      ramp = [diffred, white, diffblue]
       break
     case 'orangeblue':
       bezier = false
