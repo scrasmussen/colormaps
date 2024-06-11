@@ -25,10 +25,10 @@ const makeColormap = (name, options) => {
   const purple = '#c088de'
   const pink = '#db81ae'
   const grey = '#9aa3b3'
-  const diffred = '#FF0000'
-  const diffblue = '#0000FF'
-  const diffbrown = '#a6611a'
-  const diffgreen = '#018571'
+  const difred = '#FF0000'
+  const difblue = '#0000FF'
+  const difbrown = '#a6611a'
+  const difgreen = '#018571'
   const white = '#FFFFFF'
 
   let start, middle, end
@@ -249,15 +249,15 @@ const makeColormap = (name, options) => {
       bezier = false
       ramp = [red, start, teal]
       break
-    case 'diffbluered':
+    case 'difbluered':
       bezier = false
       ramp = chroma.brewer['RdBu'].reverse()
       break
-    case 'diffredblue':
+    case 'difredblue':
       bezier = false
       ramp = chroma.brewer['RdBu']
       break
-    case 'diffbrowngreen':
+    case 'difbrowngreen':
       bezier = false
       ramp = chroma.brewer['BrBG']
       break
