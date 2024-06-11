@@ -251,7 +251,7 @@ const makeColormap = (name, options) => {
       break
     case 'difbluered':
       bezier = false
-      ramp = chroma.brewer['RdBu'].reverse()
+      ramp = [...chroma.brewer['RdBu']].reverse()
       break
     case 'difredblue':
       bezier = false
@@ -260,6 +260,10 @@ const makeColormap = (name, options) => {
     case 'difbrowngreen':
       bezier = false
       ramp = chroma.brewer['BrBG']
+      break
+    case 'BuYlRd':
+      bezier = false
+      ramp = [...chroma.brewer['RdYlBu']].reverse()
       break
     case 'browngreen':
       bezier = false

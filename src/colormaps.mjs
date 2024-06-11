@@ -19,6 +19,7 @@ const colormaps = [
   { name: 'difredblue', type: 'diverging' },
   { name: 'difbluered', type: 'diverging' },
   { name: 'difbrowngreen', type: 'diverging' },
+  { name: 'BuYlRd', type: 'diverging' },
   { name: 'pinkgreen', type: 'diverging' },
   { name: 'redteal', type: 'diverging' },
   { name: 'orangeblue', type: 'diverging' },
