@@ -269,7 +269,8 @@ const makeColormap = (name, options) => {
       bezier = false
       // ramp = chroma.brewer['Viridis'].reverse()
       // ramp = ['#543005','#00441b'] // brown, green
-      ramp = chroma.brewer['YlGnBu']
+      // ramp = chroma.brewer['YlGnBu']
+      ramp = chroma.brewer['BrBG']
       break
     case 'orangeblue':
       bezier = false
