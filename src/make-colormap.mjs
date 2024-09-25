@@ -20,11 +20,13 @@ const makeColormap = (name, options) => {
   const orange = '#e39046'
   const yellow = '#c2b04c'
   const green = '#80ba69'
+  const forest = '#41752d'
   const teal = '#64b9c4'
   const blue = '#85a2f7'
   const purple = '#c088de'
   const pink = '#db81ae'
   const grey = '#9aa3b3'
+  const brown = '#964B00'
   const difred = '#FF0000'
   const difblue = '#0000FF'
   const difbrown = '#a6611a'
@@ -264,6 +266,26 @@ const makeColormap = (name, options) => {
     case 'BuYlRd':
       bezier = false
       ramp = [...chroma.brewer['RdYlBu']].reverse()
+      break
+    case 'blueprecip':
+      bezier = false
+      // console.log("THIS SHOULD GET PRINTED MAKE COLORMAP");
+      // ramp = [green, start, middle]
+      // ramp = [green, white, blue];
+      // ramp = [orange, start, blue];
+      // ramp = chroma.brewer['PuBuGn']
+      ramp = [white, '#b3cde0', '#6497b1', '#005b96', '#03396c', '#011f4b']
+      // WhiteBlueGreenYellowRed
+      // ramp = [brown, blue, green, forest];
+      // shades of teal
+      // ramp = [white, '#D1EBEB','#A8D7D7','#83C3C4','#63AFB0','#469B9D',
+      //         '#2E8889','#1B7476','#0B6162','#004D4F']
+      // shade of green
+      // ramp = ['#F5F5DC', '#CBE3CD', '#A7CEAD', '#749079', '#4D6A67']
+      // shade of green
+
+      // this is a good one
+      // ramp = [white, blue, green, yellow, red];
       break
     case 'browngreen':
       bezier = false
