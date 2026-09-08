@@ -109,6 +109,10 @@ const makeColormap = (name, options) => {
         ]
       }
       break
+    case 'yellowred':
+      bezier = false
+      ramp = chroma.brewer['YlOrRd']
+      break
     case 'earth':
       correctLightness = true
       if (mode === 'dark') {

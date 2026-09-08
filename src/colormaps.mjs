@@ -9,6 +9,7 @@ const colormaps = [
   { name: 'pinks', type: 'sequentialSingleHue' },
   { name: 'greys', type: 'sequentialSingleHue' },
   { name: 'fire', type: 'sequentialMultiHue' },
+  { name: 'yellowred', type: 'sequentialMultiHue' },
   { name: 'earth', type: 'sequentialMultiHue' },
   { name: 'water', type: 'sequentialMultiHue' },
   { name: 'heart', type: 'sequentialMultiHue' },
